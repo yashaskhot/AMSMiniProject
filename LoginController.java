@@ -1,7 +1,9 @@
 package com.example.presence;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -28,10 +30,13 @@ public class LoginController {
     @FXML
     private Button login;
 
+    @FXML
+    private Button signup;
+
     private Connection connect;
 
 
-    public void loginButtonOnAction(){
+    public void loginButtonOnAction(ActionEvent event){
         String Sql ="SELECT * FROM AMS2.0 WHERE username = ? and password = ?";
 
         Connection connect = DatabaseConnection.connectDb();
@@ -77,4 +82,22 @@ public class LoginController {
 
 
     }
+
+
+
+    public void SignUp(ActionEvent event) throws IOException {
+        try {
+            FXMLLoader load1 = new FXMLLoader(getClass().getResource("signup.fxml"));
+            ((Node)(event.getSource())).getScene().getWindow().hide();
+            Parent root = load1.load();
+            Stage scene1 =new Stage();
+            scene1.setScene(new Scene((root)));
+            scene1.show();
+           }
+        catch (Exception ep){
+            ep.printStackTrace();
+        }
+    }
+
+
 }
