@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="731.0" style="-fx-background-color: #033E3E;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sample2.TableController">
+    <children>
+        <TableView fx:id="students_table" layoutX="48.0" layoutY="25.0" prefHeight="238.0" prefWidth="634.0" style="-fx-background-color: #D4EBFF;">
+            <columns>
+                <TableColumn fx:id="collstud_id" prefWidth="160.80005645751953" text="STUDENT ID" />
+                <TableColumn fx:id="collstud_name" prefWidth="472.7999572753906" text="NAME OF THE STUDENT" />
+            </columns>
+        </TableView>
+        <Label layoutX="150.0" layoutY="297.0" text="Enter Student ID : " textFill="WHITE">
+            <font>
+                <Font name="Franklin Gothic Medium Cond" size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="118.0" layoutY="343.0" text="Enter Student name : " textFill="WHITE">
+            <font>
+                <Font name="Franklin Gothic Medium Cond" size="25.0" />
+            </font>
+        </Label>
+        <TextField fx:id="tfId" layoutX="353.0" layoutY="299.0" />
+        <TextField fx:id="tfUser" layoutX="354.0" layoutY="345.0" prefHeight="26.0" prefWidth="290.0" promptText="Eg; Joanna Grace Fernandez" />
+        <Button fx:id="adddata" layoutX="619.0" layoutY="424.0" mnemonicParsing="false" onAction="#insertRecord" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: green;" text="Add" textFill="#f7f7f7">
+            <font>
+                <Font name="Malgun Gothic" size="20.0" />
+            </font>
+        </Button>
+        <Button layoutX="499.0" layoutY="424.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="100.0" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
+            <font>
+                <Font name="Malgun Gothic" size="20.0" />
+            </font>
+            <effect>
+                <ColorAdjust brightness="-0.15" saturation="0.15" />
+            </effect>
+        </Button>
+        <Button layoutX="380.0" layoutY="424.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: violet;" text="Update" textFill="#fcfcfc">
+            <font>
+                <Font name="Malgun Gothic" size="20.0" />
+            </font>
+            <effect>
+                <ColorAdjust contrast="0.6" saturation="0.02" />
+            </effect>
+        </Button>
+    </children>
+</AnchorPane>

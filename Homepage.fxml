@@ -2,117 +2,59 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.effect.BoxBlur?>
-<?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.effect.Glow?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <ImageView fitHeight="494.0" fitWidth="731.0" pickOnBounds="true">
-         <image>
-            <Image url="@../../../images/19-08-2022%2017_13_15.jpg" />
-         </image>
-         <effect>
-            <BoxBlur />
-         </effect>
-      </ImageView>
-      <Pane prefHeight="123.0" prefWidth="731.0" style="-fx-background-color: #033E3E;">
-         <children>
-            <ImageView blendMode="ADD" fitHeight="154.0" fitWidth="178.0" layoutX="277.0" layoutY="-15.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../../../images/Att-removebg-preview.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
-      <Text fill="WHITE" layoutX="181.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME, Professor!" textAlignment="CENTER" wrappingWidth="499.5830783843994">
-         <font>
-            <Font name="Franklin Gothic Medium" size="44.0" />
-         </font>
-         <effect>
-            <Glow level="0.0" />
-         </effect>
-      </Text>
-      <VBox layoutX="-2.0" layoutY="123.0" prefHeight="370.0" prefWidth="132.0">
-         <children>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Profile" textFill="#edfafa" wrapText="true">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/kisspng-computer-icons-user-profile-clip-art-5af2c2029c2877.8431648315258588186396.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Reports" textFill="#faefef">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/kisspng-pie-chart-computer-icons-5b1ea5da859022.4653199815287351945471.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Data Import " textFill="#f7f3f3">
-               <graphic>
-                  <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/kisspng-sql-injection-database-vulnerability-security-hack-5b108f75a5ec68.4530313115278119576796.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Activity" textFill="#eae4e4">
-               <graphic>
-                  <ImageView blendMode="MULTIPLY" fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/transparent-time-icon-past-icon-6010bb6ea84b24.1751094916117092946893.png" />
-                     </image>
-                     <effect>
-                        <ColorAdjust />
-                     </effect>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Alert via SMS" textFill="#ece4e4">
-               <graphic>
-                  <ImageView fitHeight="18.0" fitWidth="18.0" opacity="0.79" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/kisspng-font-black-m-message-svg-png-icon-free-download-3646-5-onl-5beb39932bfc70.9870245915421423551802.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Modify record" textFill="#faeded">
-               <graphic>
-                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/kisspng-portable-network-graphics-computer-icons-scalable-how-to-edit-a-file-and-keep-transparency-transpare-5cb132005acad0.6408583615551165443719.png" />
-                     </image>
-                  </ImageView>
-               </graphic></Button>
-            <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Logout" textFill="#f4f1f1">
-               <graphic>
-                  <ImageView blendMode="MULTIPLY" fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../images/transparent-logout-icon-essentials-icon-5d9534c6d1f037.3270230415700594628599.png" />
-                     </image>
-                     <effect>
-                        <ColorAdjust />
-                     </effect>
-                  </ImageView>
-               </graphic></Button>
-         </children>
-      </VBox>
-      <Button layoutX="181.0" layoutY="247.0" mnemonicParsing="false" opacity="0.79" prefHeight="108.0" prefWidth="158.0" style="-fx-background-color: #ADD8E6;" text="ADD NEW LECTURE">
-         <font>
-            <Font name="Ebrima Bold" size="12.0" />
-         </font>
-      </Button>
-      <Button layoutX="523.0" layoutY="247.0" mnemonicParsing="false" opacity="0.79" prefHeight="108.0" prefWidth="158.0" style="-fx-background-color: #ADD8E6;" text="REVIEW ATTENDANCE">
-         <font>
-            <Font name="Ebrima Bold" size="12.0" />
-         </font>
-      </Button>
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sample2.HomepageController">
+    <children>
+        <ImageView fitHeight="494.0" fitWidth="731.0" layoutX="-14.0" layoutY="-14.0" pickOnBounds="true">
+
+            <effect>
+                <BoxBlur />
+            </effect>
+        </ImageView>
+        <Pane prefHeight="123.0" prefWidth="731.0" style="-fx-background-color: #033E3E;">
+            <children>
+
+            </children>
+        </Pane>
+        <Text fill="WHITE" layoutX="181.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME, Professor!" textAlignment="CENTER" wrappingWidth="499.5830783843994">
+            <font>
+                <Font name="Franklin Gothic Medium" size="44.0" />
+            </font>
+            <effect>
+                <Glow level="0.0" />
+            </effect>
+        </Text>
+        <VBox layoutX="-2.0" layoutY="123.0" prefHeight="370.0" prefWidth="132.0">
+            <children>
+                <Button fx:id="profile" contentDisplay="CENTER" mnemonicParsing="false" onAction="#showprofile" prefHeight="50.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Profile" textFill="#edfafa" wrapText="true" />
+                <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Reports" textFill="#faefef" />
+                <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Data Import " textFill="#f7f3f3">
+                   </Button>
+                <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Activity" textFill="#eae4e4">
+                  </Button>
+                <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Alert via SMS" textFill="#ece4e4">
+                    </Button>
+                <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Modify record" textFill="#faeded">
+                  </Button>
+                <Button mnemonicParsing="false" prefHeight="57.0" prefWidth="132.0" style="-fx-background-color: #033E3E;" text="Logout" textFill="#f4f1f1">
+                </Button>
+            </children>
+        </VBox>
+        <Button layoutX="208.0" layoutY="254.0" mnemonicParsing="false" opacity="0.79" prefHeight="108.0" prefWidth="158.0" style="-fx-background-color: #ADD8E6;" text="ADD NEW LECTURE">
+            <font>
+                <Font name="Ebrima Bold" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="student" layoutX="504.0" layoutY="254.0" mnemonicParsing="false" onAction="#showstudent" opacity="0.79" prefHeight="108.0" prefWidth="158.0" style="-fx-background-color: #ADD8E6;" text="add students">
+            <font>
+                <Font name="Ebrima Bold" size="12.0" />
+            </font>
+        </Button>
+    </children>
 </Pane>
