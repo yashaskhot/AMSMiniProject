@@ -69,15 +69,15 @@ Members
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/adityagothiwarekar)
 
-1.Advay Gujjar
+2.Advay Gujjar
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/AdvayGujar)
 
-1.Yashas khot
+3.Yashas khot
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/yashaskhot)
 
-1.Neha Nair
+4.Neha Nair
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/nehanair2004)
 
