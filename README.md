@@ -55,7 +55,7 @@ this project.
 
 ## FUNCTIONS
 
- |functions|
+ |Functions|
  |:---------|
  |1.Specially designed for professors|
  |2.Attendace can be imported by a csv file|
