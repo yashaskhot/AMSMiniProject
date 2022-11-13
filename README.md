@@ -65,15 +65,15 @@ this project.
 ## 🔗 Links
 Members
 
-1.Aditya gothiwarekar
+1.Aditya Gothiwarekar
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/adityagothiwarekar)
 
-2.Advay Gujjar
+2.Advay Gujar
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/AdvayGujar)
 
-3.Yashas khot
+3.Yashas Khot
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/yashaskhot)
 
