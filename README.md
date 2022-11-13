@@ -2,7 +2,7 @@
 # ATTENDENCE MANAGEMENT SYSTEM
 ![App Screenshot](https://github.com/adityagothiwarekar/java-project/blob/main/login.jpeg?raw=true)
 
-## why attendance managementsystem ?
+## Why our attendance management system ?
 Over the time, the majority of educational institutions have
 continued to use traditional approach of manual attendance
 management which is time consuming and difficult for teachers
