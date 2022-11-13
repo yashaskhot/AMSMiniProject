@@ -58,7 +58,7 @@ this project.
  |Functions|
  |:---------|
  |1.Specially designed for professors|
- |2.Attendace can be imported by a csv file|
+ |2.Attendance can be imported by a csv file|
  |3.Defaulters list is shown|
  |4.All other critical information can be shown with help of visual representation|
 
