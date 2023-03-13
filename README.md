@@ -1,5 +1,5 @@
 
-# ATTENDENCE MANAGEMENT SYSTEM
+# ATTENDANCE MANAGEMENT SYSTEM
 ![App Screenshot](https://github.com/adityagothiwarekar/java-project/blob/main/login.jpeg?raw=true)
 
 ## Why our attendance management system ?
